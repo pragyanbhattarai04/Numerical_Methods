@@ -21,7 +21,7 @@ int main(){
     h = (xn-x0)/n;
     I = f(x0) + f(xn);
 
-    /*Apply Simpson 1/3 Rule*/
+    /*Apply Simpson 3/8 Rule*/
     for (i=1; i<=(n-1); i++){
         k = x0 + i*h;
         if (i%3 == 0){
